@@ -1,2 +1,2 @@
 # React-Hub
-Learning React
+React Projects
