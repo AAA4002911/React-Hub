@@ -1,10 +1,10 @@
 import React from 'react';
-import "./../styles/App.css";
+import "./App.css";
 
 function App() {
     return (
         <div id="main">
-            
+            React Clean Skeleton
         </div>
     )
 }
