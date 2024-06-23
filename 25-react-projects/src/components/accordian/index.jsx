@@ -28,8 +28,7 @@ export default function Accordian() {
 	}
 
 	return <div className="wrapper">
-		<button onClick={handleEnableMultiSelection}>Enable Multi Selection </button>
-		{enableMultiSelection ? <span>Multiple Selection</span> : <span>Single Selection</span>}
+		<button onClick={handleEnableMultiSelection}>{enableMultiSelection ? <span>Multiple Selection</span> : <span>Single Selection</span>}</button>
 		<div className="accordian">
 			{ data && data.length > 0 ? 
 				(data.map((dataItem) => 
