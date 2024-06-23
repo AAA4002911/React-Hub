@@ -8,6 +8,15 @@
   gap: 20px;
 }
 
+.wrapper button {
+  padding: 10px 20px;
+  background: brown;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
 .accordian {
   width: 40vw;
   min-width: 400px;
