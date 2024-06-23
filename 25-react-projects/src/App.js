@@ -3,18 +3,22 @@ import "./App.css";
 import Accordian from './components/accordian';
 import RandomColor from './components/random-color-generator';
 import ColorConverter from './components/color-converter';
+import StarRating from './components/star-rating';
 
 function App() {
     return (
         <div className="App">
-            {/* Accordian Component */}
-            <Accordian/>
+            {/* Star Rating */}
+            <StarRating noOfStars={10} size={50}/>
+
+            {/* Color Converter */}
+            <ColorConverter/>
 
             {/* Dandom Color Generator */}
             <RandomColor/>
 
-            {/* Color Converter */}
-            <ColorConverter/>
+            {/* Accordian Component */}
+            <Accordian/>
         </div>
     )
 }
